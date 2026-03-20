@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: url('background.jpg') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 420px;
+  padding: 20px;
+}
+
+.card {
+  backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(100, 100, 150, 0.3);
+  border-radius: 20px;
+  padding: 25px;
+  color: #2c2c3a;
+  text-align: center;
+}
+
+.card h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.6;
+}
